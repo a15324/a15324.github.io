@@ -1,16 +1,82 @@
 <!DOCTYPE html>
 <html>
-
     <head>
-    <title>My Webpage</title>
-    <style>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            body{
+                background-color: rgb(166, 164, 166);
+            }
+            #blog-title{
+                background-color: rgb(158, 2, 2);
+                color: rgb(194, 178, 4);
+                text-decoration: underline;
+            }
+            #first-post{
+                text-decoration: underline;
+                color: rgb(115, 2, 91);
+            }
+            #second-post{
+                text-decoration: underline;
+                color: rgb(115, 2, 91);
+            }
+            #back-to-contents{
+                text-decoration: underline;
+                color: rgb(115, 2, 91);
+            }
+            .posts{
+                background-color: rgb(194, 178, 4);
+                color: rgb(158, 2, 2);
+                text-align: center;
+                line-height: 1.5em;
+                font-family: fantasy;
+            }
+            .date{
+                background-color: rgb(158, 2, 2);
+                color: rgb(194, 178, 4);
+                font-style: italic;
+                font-size: 12px;
+                font-weight: bold;
+                text-align: center;
+            }
+            .post-contents{
+                font-style: italic;
+                font-size: 18px;
+            }
+            a{
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .back-contents{
+                font-size: 13px;
+                text-align: center;
+                text-decoration: underline;
+            }
+
+        </style>
         
-    </style>
     </head>
-<body>
-    
-    
-    
-</body>
-    
+    <body>
+        
+        <h1 id="blog-title">Aaron's Blog</h1>
+        <h3 id="back-to-contents">Contents</h3>
+        <ul>
+            <li class="post-contents"><a href="#first-post">First Post!</a></li>
+            <li class="post-contents"><a href="#second-post">Second Post!</a></li>
+        </ul>
+        
+        <h2 id="first-post">First Post</h2>
+        <h6 class="date">March 22, 2020</h6>
+        
+        <p class="posts">Working here at the ranch has been rough for me lately. Got myself in an accident and lost my right hand. It’s hard to manage working with only one hand at the ranch and I’m getting too old to do many things. I’m worried that I might get kicked out for not being capable of working in the ranch. I had come across two new workers: George and Lennie. George seems to be intelligent and fragile, but he’s confident to be working here in the ranch. Lennie has a strong body, durable enough to work in a ranch, but he sure is dumb, from what I’ve seen. Definitely doesn’t sound so bright either. George is always there to answer questions for him and is mainly looking out for him.</p>
+        <p class="back-contents"><a href="#back-to-contents">Back to Contents</a></p>
+        
+        <h2 id="second-post">Second Post</h2>
+        <h6 class="date">July 2, 2020</h6>
+        
+        <p class="posts">After the incident, we got work tickets to work at a different ranch in Soledad. So we took a bus ride. The bus driver then decided to stop miles away from Soledad. So we walked for miles, and Lennie keeps on forgettin’ what we’re doing on our way there. I had to keep reminding him and once we arrived at the new ranch, he wouldn’t speak to the boss. After miles and one night, we’ve finally arrived at the new ranch. We met a few workers there and interviewed with the boss. I used the bus driver excuse because he thought we were already in Soledad when we weren’t. Then, he asked us about our working skills. Lennie forgets what I told him and I had to speak over him, answering the boss’s questions for him. He was suspicious of us, but he assigned us to work under a man named Slim. We’ve gotten this far and our future of livin’ the American Dream still lies ahead of us.
+        </p>
+        <p class="back-contents"><a href="#back-to-contents">Back to Contents</a></p>
+        
+    </body>
 </html>
